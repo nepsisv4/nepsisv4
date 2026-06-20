@@ -1,0 +1,12 @@
+{
+  "name": "pool-economics-harness",
+  "private": true,
+  "description": "Runs PatiencePool as real compiled bytecode on an in-process EVM to check yield-distribution invariants. Run: npm install && node pool_economics.js (copy PatiencePool.sol, Nepsis.sol, FixedPointMath.sol next to it first, or adjust the rd() paths).",
+  "dependencies": {
+    "solc": "0.8.26",
+    "ethers": "6.13.4",
+    "@ethereumjs/vm": "7.2.0",
+    "@ethereumjs/common": "4.3.0",
+    "@ethereumjs/util": "9.0.3"
+  }
+}
